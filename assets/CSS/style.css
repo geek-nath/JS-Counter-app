@@ -9,4 +9,16 @@ body {
     background: linear-gradient(rgba(0,0,0,0.514), rgba(0,0,0,0.514)), url('../Images/patternpad.svg');
     height: 100vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter_box {
+    border-radius: 10px;
+    width: 350px;
+}
+
+.counter_figure {
+    font-size: 3rem;
 }
